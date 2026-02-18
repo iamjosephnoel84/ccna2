@@ -186,7 +186,7 @@ ip address 208.8.8.100 255.255.255.0
 ip ospf 1 area 0
 exit
 router eigrp 100
-network 208.8.8.0.0.0.255
+network 208.8.8.0.0.0.0.255
 end
 
 D1:
@@ -479,5 +479,6 @@ Howt to configure Site 2 site VPN JP to PH:
 https://
 
 TASK6: FUndamentals of Cisco network Security:
+
 
 
